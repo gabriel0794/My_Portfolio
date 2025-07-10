@@ -11,6 +11,7 @@ import {
   FaArrowCircleDown,
   FaStar,
   FaPhone,
+  FaBitbucket
 } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -290,6 +291,14 @@ function App() {
             Also, the tech stack I use to code this website is: React, Vite,
             Tailwind CSS, and GitHub.
           </p>
+          <a
+            href="https://github.com/gabriel0794/My_Portfolio.git"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-300 hover:text-blue-500 underline"
+          >
+            Source Code Here
+          </a>
         </div>
         {/* other content */}
       </section>
@@ -298,191 +307,295 @@ function App() {
       <section id="resume" className="min-h-screen w-full scroll-mt-24">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-6xl font-bold text-[#9DB2BF] mt-12">Resume</h2>
-          <div className="border border-gray-300 p-6 mt-14 rounded-2xl hover:scale-105 transition-transform duration-300" style={{ boxShadow: '0 0 20px rgba(255, 255, 255, 0.6)' }}>
+          <div
+            className="border border-gray-300 p-6 mt-14 rounded-2xl hover:scale-105 transition-transform duration-300"
+            style={{ boxShadow: "0 0 20px rgba(255, 255, 255, 0.6)" }}
+          >
             <div className="flex flex-col">
-            <h2 className="text-3xl font-bold">John Gabriel M. Lacar</h2>
-            <p className="font-bold">
-              Front-end Developer | Junior Full-stack Developer
-            </p>
-            <p className="font-thin mt-2">
-              <MdEmail className="inline" /> lacar.johngabriel1@gmail.com
-            </p>
-            <p className="font-thin">
-              <FaPhone className="inline" /> +63 991 772 9314
-            </p>
-            <p className="font-thin">
-              <GoHomeFill className="inline" /> Zone 2 Maken Street, Barra,
-              Opol, Misamis Oriental, Philippines
-            </p>
+              <h2 className="text-3xl font-bold">John Gabriel M. Lacar</h2>
+              <p className="font-bold">
+                Front-end Developer | Junior Full-stack Developer
+              </p>
+              <p className="font-thin mt-2">
+                <MdEmail className="inline" /> lacar.johngabriel1@gmail.com
+              </p>
+              <p className="font-thin">
+                <FaPhone className="inline" /> +63 991 772 9314
+              </p>
+              <p className="font-thin">
+                <GoHomeFill className="inline" /> Zone 2 Maken Street, Barra,
+                Opol, Misamis Oriental, Philippines
+              </p>
             </div>
-          <hr className="border-t border-gray-300 my-6" />
-          <div>
-            <h2 className="text-3xl font-bold">Professional Summary</h2>
-            <p className="font-thin mt-2">
-              Motivated and detail-oriented Front-End Developer with a strong
-              foundation in React JS, HTML, CSS, and JavaScript. Experienced in
-              designing responsive, user-centric interfaces and skilled in both
-              programming and hardware troubleshooting. Recognized by DENR-MGB X
-              with a Letter of Commendation for professional contribution. Eager
-              to grow in a dynamic development environment and continuously
-              expand my knowledge in full-stack development.
-            </p>
-          </div>
-          <hr className="border-t border-gray-300 my-6" />
-          <div>
-            <h2 className="text-3xl font-bold">Education</h2>
-            <p className="font-bold mt-2">
-              University of Science and Technology of Southern Philippines
-            </p>
-            <p className="font-bold">
-              Bachelor of Science in Information Technology
-            </p>
-            <p className="font-thin">Graduated: 2025</p>
-            <p className="font-bold mt-2">Liceo de Cagayan University</p>
-            <p className="font-bold">Senior High School – ICT Strand</p>
-            <p className="font-thin">SY. 2019 – 2021</p>
-            <p className="font-bold mt-2">
-              Misamis Oriental General Comprehensive High School
-            </p>
-            <p className="font-bold">Junior High School</p>
-            <p className="font-thin">SY. 2015 – 2019</p>
-            <p className="font-bold mt-2">Gusa Elementary School</p>
-            <p className="font-bold">Elementary School</p>
-            <p className="font-thin">SY. 2009 – 2015</p>
-          </div>
-          <hr className="border-t border-gray-300 my-6" />
-          <div className="flex flex-col">
-            <h2 className="text-3xl font-bold">Technical Skills</h2>
+            <hr className="border-t border-gray-300 my-6" />
+            <div>
+              <h2 className="text-3xl font-bold">Professional Summary</h2>
+              <p className="font-thin mt-2">
+                Motivated and detail-oriented Front-End Developer with a strong
+                foundation in React JS, HTML, CSS, and JavaScript. Experienced
+                in designing responsive, user-centric interfaces and skilled in
+                both programming and hardware troubleshooting. Recognized by
+                DENR-MGB X with a Letter of Commendation for professional
+                contribution. Eager to grow in a dynamic development environment
+                and continuously expand my knowledge in full-stack development.
+              </p>
+            </div>
+            <hr className="border-t border-gray-300 my-6" />
+            <div>
+              <h2 className="text-3xl font-bold">Education</h2>
+              <p className="font-bold mt-2">
+                University of Science and Technology of Southern Philippines
+              </p>
+              <p className="font-bold">
+                Bachelor of Science in Information Technology
+              </p>
+              <p className="font-thin">Graduated: 2025</p>
+              <p className="font-bold mt-2">Liceo de Cagayan University</p>
+              <p className="font-bold">Senior High School – ICT Strand</p>
+              <p className="font-thin">SY. 2019 – 2021</p>
+              <p className="font-bold mt-2">
+                Misamis Oriental General Comprehensive High School
+              </p>
+              <p className="font-bold">Junior High School</p>
+              <p className="font-thin">SY. 2015 – 2019</p>
+              <p className="font-bold mt-2">Gusa Elementary School</p>
+              <p className="font-bold">Elementary School</p>
+              <p className="font-thin">SY. 2009 – 2015</p>
+            </div>
+            <hr className="border-t border-gray-300 my-6" />
+            <div className="flex flex-col">
+              <h2 className="text-3xl font-bold">Technical Skills</h2>
 
-            <div className="flex flex-row gap-12 mt-4">
-              {/* Left column */}
-              <div className="flex flex-col space-y-4">
-                <div>
-                  <h3 className="font-bold">Front-end Development</h3>
-                  <ul className="list-disc list-inside font-thin">
-                    <li>React JS, HTML, CSS, JavaScript</li>
-                    <li>Figma (Web UI/UX Design)</li>
-                    <li>Canva (Graphic Design)</li>
-                  </ul>
+              <div className="flex flex-row gap-12 mt-4">
+                {/* Left column */}
+                <div className="flex flex-col space-y-4">
+                  <div>
+                    <h3 className="font-bold">Front-end Development</h3>
+                    <ul className="list-disc list-inside font-thin">
+                      <li>React JS, HTML, CSS, JavaScript</li>
+                      <li>Figma (Web UI/UX Design)</li>
+                      <li>Canva (Graphic Design)</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="font-bold">Back-end Development</h3>
+                    <ul className="list-disc list-inside font-thin">
+                      <li>Node.js, Express.js, Python, Laravel, Django</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="font-bold">Database</h3>
+                    <ul className="list-disc list-inside font-thin">
+                      <li>MySQL, PostgreSQL, MongoDB, Oracle, SQL Server</li>
+                    </ul>
+                  </div>
                 </div>
 
-                <div>
-                  <h3 className="font-bold">Back-end Development</h3>
+                {/* Right column */}
+                <div className="flex flex-col">
+                  <h3 className="font-bold">Tools</h3>
                   <ul className="list-disc list-inside font-thin">
-                    <li>Node.js, Express.js, Python, Laravel, Django</li>
+                    <li>Git, GitHub</li>
                   </ul>
-                </div>
 
-                <div>
-                  <h3 className="font-bold">Database</h3>
-                  <ul className="list-disc list-inside font-thin">
-                    <li>MySQL, PostgreSQL, MongoDB, Oracle, SQL Server</li>
-                  </ul>
+                  <div className="mt-4">
+                    <h3 className="font-bold">Hardware Troubleshooting</h3>
+                    <ul className="list-disc list-inside font-thin">
+                      <li>
+                        Able to diagnose and fix common hardware issues: RAM,
+                        CPU, GPU, power supplies, BIOS, CMOS
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="mt-4">
+                    <h3 className="font-bold">Microsoft Office</h3>
+                    <ul className="list-disc list-inside font-thin">
+                      <li>Word, Powerpoint, Excel</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-
-              {/* Right column */}
-              <div className="flex flex-col">
-                <h3 className="font-bold">Tools</h3>
-                <ul className="list-disc list-inside font-thin">
-                  <li>Git, GitHub</li>
+            </div>
+            <hr className="border-t border-gray-300 my-6" />
+            <div>
+              <h2 className="text-3xl font-bold">Achievements</h2>
+              <ul className="list-disc list-inside font-thin flex flex-row mt-2">
+                <li className="font-bold">Certificate of Commendation</li>
+                <p className="ml-2">
+                  - Received from DENR-MGB X for my professional contribution.
+                </p>
+              </ul>
+              <ul className="list-disc list-inside font-thin flex flex-row">
+                <li className="font-bold">Dean's Lister</li>
+                <p className="ml-2">
+                  - 4th Year, 1st semester and 2nd semester, USTP
+                </p>
+              </ul>
+            </div>
+            <hr className="border-t border-gray-300 my-6" />
+            <div>
+              <h2 className="text-3xl font-bold">Expertise</h2>
+              <div className="flex flex-row gap-24">
+                <ul className="list-disc list-inside font-thin mt-2">
+                  <li>Computer Literate</li>
+                  <li>Problem Solver</li>
+                  <li>Team Player</li>
+                  <li>Quick Learner</li>
                 </ul>
+                <ul className="list-disc list-inside font-thin mt-2">
+                  <li>Organized</li>
+                  <li>Detail-Oriented</li>
+                  <li>Leadership</li>
+                </ul>
+              </div>
+            </div>
+            <hr className="border-t border-gray-300 my-6" />
+            <div>
+              <h2 className="text-3xl font-bold">Languages</h2>
+              <ul className="list-disc list-inside font-thin mt-2">
+                <li>English</li>
+                <li>Tagalog</li>
+                <li>Cebuano</li>
+              </ul>
+            </div>
+            <hr className="border-t border-gray-300 my-6" />
 
-                <div className="mt-4">
-                  <h3 className="font-bold">Hardware Troubleshooting</h3>
-                  <ul className="list-disc list-inside font-thin">
-                    <li>Able to diagnose and fix common hardware issues: RAM, CPU, GPU, power supplies, BIOS, CMOS</li>
-                  </ul>
+            <div className="flex flex-col">
+              <h2 className="text-3xl font-bold">References</h2>
+
+              <div className="flex flex-row gap-24 mt-4">
+                <div className="flex flex-col">
+                  <h3 className="font-bold text-xl">Rev. David Mark Pestaño</h3>
+                  <p>Host Pastor | UPC-MCARC</p>
+                  <p>Former Professor – Xavier University Data Sciences</p>
+                  <p>
+                    <FaPhone className="inline" /> +63 905 785 6548
+                  </p>
+                  <p>
+                    <MdEmail className="inline" /> davidmark1028@gmail.com
+                  </p>
                 </div>
 
-                <div className="mt-4">
-                  <h3 className="font-bold">Microsoft Office</h3>
-                  <ul className="list-disc list-inside font-thin">
-                    <li>Word, Powerpoint, Excel</li>
-                  </ul>
+                <div className="flex flex-col">
+                  <h3 className="font-bold text-xl">Doc. Randy Barro</h3>
+                  <p>Veterinarian</p>
+                  <p>ABC Veterinary Clinic / CEO</p>
+                  <p>
+                    <FaPhone className="inline" /> +63 968 582 8653
+                  </p>
+                  <p>
+                    <MdEmail className="inline" /> randybarro.rbg@gmail.com
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-          <hr className="border-t border-gray-300 my-6" />
-          <div>
-            <h2 className="text-3xl font-bold">Achievements</h2>
-            <ul className="list-disc list-inside font-thin flex flex-row mt-2">
-              <li className="font-bold">Certificate of Commendation</li>
-              <p className="ml-2">- Received from DENR-MGB X for my professional contribution.</p>
-            </ul>
-            <ul className="list-disc list-inside font-thin flex flex-row">
-              <li className="font-bold">Dean's Lister</li>
-              <p className="ml-2">- 4th Year, 1st semester and 2nd semester, USTP</p>
-            </ul>
-          </div>
-          <hr className="border-t border-gray-300 my-6" />
-          <div>
-            <h2 className="text-3xl font-bold">Expertise</h2>
-            <div className="flex flex-row gap-24">
-            <ul className="list-disc list-inside font-thin mt-2">
-              <li>Computer Literate</li>
-              <li>Problem Solver</li>
-              <li>Team Player</li>
-              <li>Quick Learner</li>
-              
-            </ul>
-            <ul className="list-disc list-inside font-thin mt-2">
-              <li>Organized</li>
-              <li>Detail-Oriented</li>
-              <li>Leadership</li>
-            </ul>
-            </div>
-          </div>
-          <hr className="border-t border-gray-300 my-6" />
-          <div>
-            <h2 className="text-3xl font-bold">Languages</h2>
-            <ul className="list-disc list-inside font-thin mt-2">
-              <li>English</li>
-              <li>Tagalog</li>
-              <li>Cebuano</li>
-            </ul>
-          </div>
-          <hr className="border-t border-gray-300 my-6" />
-
-          <div className="flex flex-col">
-            <h2 className="text-3xl font-bold">References</h2>
-
-            <div className="flex flex-row gap-24 mt-4">
-              <div className="flex flex-col">
-              <h3 className="font-bold text-xl">Rev. David Mark Pestaño</h3>
-              <p>Host Pastor | UPC-MCARC</p>
-              <p>Former Professor – Xavier University Data Sciences</p>
-              <p><FaPhone className="inline" /> +63 905 785 6548</p>
-              <p><MdEmail className="inline" /> davidmark1028@gmail.com</p>
-              </div>
-
-              <div className="flex flex-col">
-              <h3 className="font-bold text-xl">Doc. Randy Barro</h3>
-              <p>Veterinarian</p>
-              <p>ABC Veterinary Clinic / CEO</p>
-              <p><FaPhone className="inline" /> +63 968 582 8653</p>
-              <p><MdEmail className="inline" /> randybarro.rbg@gmail.com</p>
-              </div>
-            </div>
-          </div>  
           </div>
 
           <div className="flex flex-col">
-          <a href="/John Lacar Resume.pdf" target="_blank" rel="noopener noreferrer">
-            <button className="bg-[#0F215E] hover:bg-[#070F2B] hover:text-white w-52 border-2 border-[#00000] rounded-lg mt-14 py-4 box-shadow-lg/30">Download Resume <FaArrowRight className="inline ml-2" /></button>
-          </a>
+            <a
+              href="/John Lacar Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-[#0F215E] hover:bg-[#070F2B] hover:text-white w-52 border-2 border-[#00000] rounded-lg mt-14 py-4 box-shadow-lg/30">
+                Download Resume <FaArrowRight className="inline ml-2" />
+              </button>
+            </a>
           </div>
           {/* other content */}
         </div>
-
-        
       </section>
 
       {/* Project Section */}
       <section id="project" className="min-h-screen w-full scroll-mt-24">
         <div className="max-w-4xl mx-auto px-4 mt-28">
           <h2 className="text-6xl font-bold text-[#9DB2BF] mt-12">Project</h2>
+        </div>
+
+        <div className="flex flex-col justify-center mt-4">
+          <div className="flex flex-row gap-4 justify-center">
+            <a href="https://github.com/DENR-MGB-GIS/denr_mgb.git" target="_blank" rel="noopener noreferrer" >
+            <div className="max-h-96 w-96 box-shadow-lg/30 bg-[#27374D] rounded-lg p-8 flex flex-col mt-8 hover:scale-105 transition-transform duration-300 cursor-default">
+              <h2 className="text-2xl font-bold">DENR-MGB X GeoHub</h2>
+              <p className="mt-2 text-sm">
+                Web based request for Geohazard Certification for DENR-MGB X
+              </p>
+              <p className="font-thin mt-8">React Vite</p>
+              <p className="font-thin">Django</p>
+              <p className="font-thin">05-16-2025</p>
+              <div className="mt-4 flex justify-end">
+                <FaGithub className="text-3xl text-white" />
+              </div>
+            </div>
+            </a>
+
+            <a href="https://github.com/gabriel0794/capstone.git" target="_blank" rel="noopener noreferrer" >
+            <div className="max-h-96 w-96 box-shadow-lg/30 bg-[#27374D] rounded-lg p-8 flex flex-col mt-8 hover:scale-105 transition-transform duration-300 cursor-default">
+              <h2 className="text-2xl font-bold">CAPSTONE PROJECT PetVet</h2>
+              <p className="mt-2 text-sm">
+                Web and Mobile based Identification System for Pets that are registered in the City Veterinary Office 10
+              </p>
+              <p className="font-thin mt-2">TypeScript</p>
+              <p className="font-thin">MongoDB</p>
+              <p className="font-thin">01-17-2025</p>
+              <div className="mt-4 flex justify-end">
+                <FaGithub className="text-3xl text-white" />
+              </div>
+            </div>
+            </a>
+
+
+            <div className="max-h-96 w-96 box-shadow-lg/30 bg-[#27374D] rounded-lg p-8 flex flex-col mt-8 hover:scale-105 transition-transform duration-300 cursor-default">
+              <h2 className="text-2xl font-bold">Le-Patissier</h2>
+              <p className="mt-2">
+                E-Commerce for a pastry shop especially cakes
+              </p>
+              <p className="font-thin mt-8">HTML, CSS, JavaScript</p>
+              <p className="font-thin">06-27-2023</p>
+              <div className="mt-4 flex justify-end">
+                <FaGithub className="text-3xl text-white" />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-row gap-4 justify-center -mt-4">
+            <a href="https://gabriel0794@bitbucket.org/johngabriel15/mobappfrontback.git" target="_blank" rel="noopener noreferrer" >
+            <div className="max-h-96 w-96 box-shadow-lg/30 bg-[#27374D] rounded-lg p-8 flex flex-col mt-8 hover:scale-105 transition-transform duration-300 cursor-default">
+              <h2 className="text-2xl font-bold">Mobile Login System</h2>
+              <p className="mt-2 text-sm">
+                My first project in Login Authentication for mobile programming
+              </p>
+              <p className="font-thin mt-8">React Native</p>
+              <p className="font-thin">Django</p>
+              <p className="font-thin">10-08-2024</p>
+              <div className="mt-4 flex justify-end">
+                <FaBitbucket className="text-3xl text-white" />
+              </div>
+            </div>
+            </a>
+
+            <a href="https://gabriel0794@bitbucket.org/johngabriel15/reactdjangoauth.git" target="_blank" rel="noopener noreferrer" >
+            <div className="max-h-96 w-96 box-shadow-lg/30 bg-[#27374D] rounded-lg p-8 flex flex-col mt-8 hover:scale-105 transition-transform duration-300 cursor-default">
+              <h2 className="text-2xl font-bold">Web Login Auth</h2>
+              <p className="mt-2 text-sm">
+                Web Login Authentication using Django for my first PIT
+              </p>
+              <p className="font-thin mt-8">TypeScript</p>
+              <p className="font-thin">MongoDB</p>
+              <p className="font-thin">04-19-2024</p>
+              <div className="mt-4 flex justify-end">
+                <FaBitbucket className="text-3xl text-white" />
+              </div>
+            </div>
+            </a>
+          </div>
+
+          
+
+
           {/* other content */}
         </div>
       </section>
