@@ -17,6 +17,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import MyPhoto from "./assets/aboutme.png";
 import { GoHomeFill } from "react-icons/go";
+import ContactForm from './components/ContactForm';
 
 const sections = ["home", "about", "techstack", "resume", "project", "contact"];
 
@@ -603,8 +604,11 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="h-screen w-full scroll-mt-24">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl font-bold">Contact</h2>
+          <h2 className="text-6xl font-bold text-[#9DB2BF] mt-12">Contact Me</h2>
           {/* other content */}
+        </div>
+        <div className="flex flex-col">
+        <ContactForm />
         </div>
       </section>
     </div>
