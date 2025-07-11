@@ -2,10 +2,19 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { FaPhone } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMessage } from "@fortawesome/free-solid-svg-icons";
 import { GoHomeFill } from "react-icons/go";
+import {
+  FaGithub,
+  FaFacebook,
+  FaInstagram,
+  FaGoogle,
+  FaArrowCircleDown,
+  FaStar,
+  FaPhone,
+  FaBitbucket
+} from "react-icons/fa";
 
 export default function ContactForm() {
   const form = useRef();
@@ -102,8 +111,28 @@ export default function ContactForm() {
             Misamis Oriental, Philippines
           </p>
         </div>
-        <hr className="w-full border-t border-gray-300 -mt-8" />
-        <p className="font-thin flex justify-center items-center -mt-12">Glad to work with you :)</p>
+        <hr className="w-full border-t border-gray-300 -mt-6" />
+
+        <div className="flex gap-6 -mt-8 justify-center">
+            <a
+              href="https://www.facebook.com/gabriel0794"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook className="text-4xl text-white drop-shadow hover:scale-110 transition-transform duration-300" />
+            </a>
+            <a href="https://www.instagram.com/j.lacar/" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="text-4xl text-white drop-shadow hover:scale-110 transition-transform duration-300" />
+            </a>
+            <a href="https://github.com/gabriel0794" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="text-4xl text-white drop-shadow hover:scale-110 transition-transform duration-300" />
+            </a>
+            <a href="mailto:lacar.johngabriel1@gmail.com" target="_blank" rel="noopener noreferrer">
+              <FaGoogle className="text-4xl text-white drop-shadow hover:scale-110 transition-transform duration-300" />
+            </a>
+          </div>
+
+        <p className="font-thin flex justify-center items-center -mt-10">Glad to work with you :)</p>
       </div>
     </div>
   );

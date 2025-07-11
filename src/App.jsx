@@ -87,13 +87,13 @@ function App() {
             >
               <FaFacebook className="text-5xl text-white drop-shadow hover:scale-110 transition-transform duration-300" />
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/j.lacar/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-5xl text-white drop-shadow hover:scale-110 transition-transform duration-300" />
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/gabriel0794" target="_blank" rel="noopener noreferrer">
               <FaGithub className="text-5xl text-white drop-shadow hover:scale-110 transition-transform duration-300" />
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:lacar.johngabriel1@gmail.com" target="_blank" rel="noopener noreferrer">
               <FaGoogle className="text-5xl text-white drop-shadow hover:scale-110 transition-transform duration-300" />
             </a>
           </div>
